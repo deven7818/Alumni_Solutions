@@ -1,0 +1,64 @@
+
+/*********NAVBER******/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navbar__text{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto; 
+    color: #fff;
+  
+  }
+  
+  .navbar__ul{
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  
+  .navbar__ul li a:hover{
+    color: #f00;
+  }
+  
+  .navbar__ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    font-weight: 700;
+    font-size: large;
+    text-transform: uppercase;
+  }
+  
+
+
+  .navbar-brand{
+    font-family: big john;
+    font-size: 30px;
+    color: #f00 !important;
+    
+}
+
+.nav-link{
+    color: #f00!important;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.bgnav{
+    font-size: 25px;
+}
+
+.bgnav:hover{
+   border-color: skyblue;
+    border-style: solid;
+    border-radius: 15px;
+}
+

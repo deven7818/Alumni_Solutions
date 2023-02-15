@@ -1,0 +1,36 @@
+.serice{
+    padding: 5rem;
+}
+
+.iconcenter{
+    text-align: center; 
+    color: red; 
+    text-align:center;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .pad{
+      padding: 1rem;
+  }
+
+  h1{
+    color: brown !important;
+    margin-top: 3rem !important;
+    font-size: 5vw !important;
+  
+  }
+
+  h5{
+      font-family: Georgia, 'Times New Roman', Times, serif !important;
+  }
+
+  
+.hzoom{
+    transition: transform .2s; /* Animation */
+  }
+  
+  .hzoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  

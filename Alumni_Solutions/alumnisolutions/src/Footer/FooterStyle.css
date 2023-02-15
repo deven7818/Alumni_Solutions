@@ -1,0 +1,24 @@
+.main-footer{
+    background-color: rgba(206, 204, 204, 0.781);
+    padding: auto;
+    margin-left: auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-caps: all-petite-caps;
+   
+}
+.footeritems{
+    color: crimson;
+}
+.contlink{
+    margin-top: 70px;
+}
+
+.footer-middle {
+    padding-top: 0rem;
+}
+
+.footer-bottom{
+    margin-left:center;
+}
+

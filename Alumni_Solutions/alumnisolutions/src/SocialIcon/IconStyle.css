@@ -1,0 +1,69 @@
+.icon-bar {
+    margin-left: 68px !important;
+    position: fixed !important;
+    top: 50% !important;
+    transform: translate(-50%) !important;
+    -webkit-transform: translate(-50%) !important;
+    -ms-transform: translate(-50%) !important;
+    z-index: 10 !important;
+
+}
+
+.icon-bar a{
+    
+    text-decoration: none !important;
+    width: 227px !important;
+    background: #3b5999 ;
+    color: #fff !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    padding: 5px !important;
+    font-size: 20px !important;
+    transform: translate(-155px) !important;
+    -webkit-transform: translate(-155px) !important;
+    -ms-transform: translate(-155px) !important;
+
+    transition:all 0.5s linear !important;
+    -webkit-transition:all 0.5s linear !important;
+    -ms-transition:all 0.5s linear !important;
+
+}
+.facebook{
+    
+    background: #3b5998 !important;
+}
+.twitter{
+    background: #00aced !important;
+}
+.instagram{
+    background: #e4405f !important;
+}
+.youtube{
+    background: #cd201f !important;
+}
+.linkedin{
+    background: #0077B5 !important;
+}
+
+.icon-bar a:hover {
+    transform: translate(0) !important;
+    -webkit-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+
+}
+
+.a i{
+    padding-left: 20px !important;
+    font-size: 30px !important;
+    animation: letszoom 3s linear alternate infinite !important;
+}
+
+@keyframes letszoom{
+    from {
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}

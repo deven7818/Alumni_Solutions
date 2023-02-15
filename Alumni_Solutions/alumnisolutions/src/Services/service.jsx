@@ -1,0 +1,64 @@
+import React from 'react';
+import About from '../About/about';
+
+class Service extends React.Component{
+    constructor() {
+        super();
+        this.state = {
+            data:
+            [
+                {
+                    "id":1,
+                    "Name":"Ab",
+                    "age":"20"
+                },
+                {
+                    "id":2,
+                    "Name":"Abc",
+                    "age":"30"
+                },
+                {
+                    "id":3,
+                    "Name":"Abcd",
+                    "age":"40"
+                },
+            ]
+        }
+    }
+    render() {
+        return(
+            <div>
+                <Header/>
+                <table>
+                    <tbody>
+                        {this.state.data.map((person,i) => <TableRow key ={i} data = {person} /> )}
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
+}
+
+class Header extends React.Component{
+    render() {
+        return(
+            <div>
+                <h1>Header</h1>
+            </div>
+        );
+    }
+}
+
+class TableRow extends React.Component{
+    render() {
+        return(
+            <tr>
+                <td>{this.props.data.id}</td>
+                <td>{this.props.data.Name}</td>
+                <td>{this.props.data.age}</td>
+            </tr>
+        );
+    }
+}
+
+export default Service;

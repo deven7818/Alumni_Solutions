@@ -1,0 +1,69 @@
+
+.constructionimage{
+    background-image: url('./contruction.jfif');
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    
+}
+
+.schoollimage{
+    background-image: url('./School.jfif');
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+}
+
+
+.custserlimage{
+    background-image: url('./customer_service.png');
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+    
+}
+
+.eyeimage{
+    background-image: url('./Eye.jfif');
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+
+
+.bulkimage{
+    background-image: url('./images.png');
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+}
+
+
+.billingimage{
+    background-image: url('./retail.jfif');
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
+}
+
+.aa{
+    margin-top: 250px;
+    font-size: x-large;
+}
+
+.abs{
+    margin-bottom: 50px;
+}

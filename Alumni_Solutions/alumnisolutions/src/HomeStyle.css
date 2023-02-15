@@ -1,0 +1,152 @@
+header{
+    margin-top: -320px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url("./caspar-camille-rubin-oI6zrBj3nKw-unsplash.jpg"); 
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar-brand{
+    font-family: big john;
+    font-size: 30px;
+    color: #f00 !important;
+    
+}
+
+.nav-link{
+    color: #f00!important;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.bgnav{
+    font-size: 25px;
+}
+
+.bgnav:hover{
+   border-color: skyblue;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.banner-text p{
+    font-size: 30px;
+    font-family: poppins;
+    color: #6b36fe;
+}
+
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    
+}
+
+.banner-btn a.active{
+    margin-right: 6px;
+    background: #f00;
+    border-color: #f00;
+    color: #000;
+    
+}
+
+/*****text-animation******/
+
+.text-area{
+    font-size: 63px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.text-area span{
+    margin-top: 200px;
+    color: #f00;
+    opacity: 0;
+    transform: translate(0, -100px) rotate(360deg) scale(0);
+    animation: animate 5s forwards;
+}
+
+.text-area span{
+    display: inline-block;
+}
+
+.text-area span:nth-of-type(2){
+    animation-delay: .1s;
+}
+
+.text-area span:nth-of-type(3){
+    animation-delay: .2s;
+}
+
+.text-area span:nth-of-type(4){
+    animation-delay: .3s;
+}
+
+.text-area span:nth-of-type(5){
+    animation-delay: .4s;
+}
+
+.text-area span:nth-of-type(6){
+    animation-delay: .5s;
+}
+
+.text-area span:nth-of-type(7){
+    animation-delay: .6s;
+}
+
+.text-area span:nth-of-type(8){
+    animation-delay: .7s;
+}
+
+.text-area span:nth-of-type(9){
+    animation-delay: .8s;
+}
+
+.text-area span:nth-of-type(10){
+    animation-delay: .9s;
+}
+.text-area span:nth-of-type(11){
+    animation-delay: .10s;
+}
+.text-area span:nth-of-type(12){
+    animation-delay: .11s;
+}
+.text-area span:nth-of-type(13){
+    animation-delay: .12s;
+}
+
+@keyframes animate{
+    30%{
+        transform: translate(0, -50%) rotate(180deg) scale(1);
+    }
+    30%{
+        transform: translate(0, 20%) rotate(0deg) scale(.8);
+    }
+    100%{
+        transform: translate(0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+/********responsive css********/
+@media (max-width:600px){
+    .banner-text p{
+        display: grid;
+    }
+    .navbar-dark{
+        background-color: #333;
+    }
+    .text-area{
+        font-size: 33.3px;
+
+        
+    }
+    
+}

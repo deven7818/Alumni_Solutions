@@ -1,0 +1,98 @@
+
+.servicehomeimage{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url('../ian-dooley-DJ7bWa-Gwks-unsplash.jpg');
+    margin-top: -265px;
+    background-size: 100% 100%;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.webimage{
+    background-image: url('./responsive.png');
+    margin-top: 22px !important;
+    margin-bottom: 2rem;
+    margin-left: 150px !important;
+    margin-right: auto;
+    height: 250px !important;
+    width: 256px !important;
+}
+
+.androidimage{
+    background-image: url('./android.png');
+    margin-top: 10px !important;
+    margin-bottom: 2rem;
+    margin-left: 100px !important;
+    margin-right: auto;
+    height: 250px !important;
+    width: 256px !important;
+}
+
+
+.digitalimage{
+    background-image: url('./digital-campaign.png');
+    margin-top: 10px !important;
+    margin-bottom: 2rem;
+    margin-left: 150px !important;
+    margin-right: auto;
+    height: 250px !important;
+    width: 256px !important;
+}
+
+
+.mlimage{
+    background-image: url('./machine-learning.png');
+    margin-top: 10px !important;
+    margin-bottom: 2rem;
+    margin-left: 100px !important;
+    margin-right: auto;
+    height: 250px !important;
+    width: 256px !important;
+}
+
+
+.consultingimage{
+    background-image: url('./consulting.png');
+    margin-top: 10px !important;
+    margin-bottom: 2rem;
+    margin-left: 150px !important;
+    margin-right: auto;
+    height: 250px !important;
+    width: 256px !important;
+}
+
+
+.head{
+    
+    font-size: 50px;
+    color: mediumblue;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.description{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    text-align: justify;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.lgbclr{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    background-color: rgba(230, 230, 230, 0.932);
+}
+
+
+
+
+.rbgclr{
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+    
+}

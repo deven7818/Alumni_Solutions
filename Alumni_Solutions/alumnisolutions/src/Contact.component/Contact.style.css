@@ -1,0 +1,26 @@
+
+.contimage{
+  background-image: url('./pavan-trikutam-71CjSSB83Wo-unsplash.jpg');
+  margin-top: -360px;
+  margin-bottom: 60px;
+  background-size: 100% 100%;   
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100vh;
+}
+
+
+  .conttitle{
+    margin-bottom: 50px;
+    margin-right: 400px;
+
+  }
+  .infodetails{
+    margin-bottom: 60px;
+  }
+
+  .contup{
+    margin-bottom: -50px;
+  }
+  
